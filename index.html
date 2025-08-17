@@ -10,11 +10,14 @@
     rel="stylesheet"/>
 </head>
 <body>
+    
         <div id="calculator">
-            <input type="text" placeholder="0">
+            <input type="text" placeholder="0" id="inputBox">
             <div>
-                <button class="but">AC</button>
-                <button class="but"><i class="ri-delete-back-2-line"></i></button>
+                <button style="color: yellow;" class="but" >AC</button>
+                <button style="color: yellowgreen;font-size: larger;" class="but back">
+                    <i class="ri-delete-back-2-line"></i>
+                </button>
                 <button class="but" id="op">%</button>
                 <button class="but" id="op">/</button>
             </div>
@@ -22,7 +25,7 @@
                 <button class="but"="op">7</button>
                 <button class="but">8</button>
                 <button class="but">9</button>
-                <button class="but"  id="op"><i class="ri-close-large-fill"></i></button>
+                <button class="but" id="op">x</button>
             </div>
             <div>
                 <button class="but">4</button>
@@ -43,5 +46,6 @@
                 <button class="but" id="eqbtn">=</button>
             </div>
         </div>
+        <script src="script.js"></script>
 </body>
 </html>

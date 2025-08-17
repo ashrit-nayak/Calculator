@@ -7,7 +7,7 @@ html, body {
   height: 100%;
   width: 100%;
   background-color: #120000;
-  font-size: 20px xx-large;
+  font-size: 20px;
   color: white;
 }
 body{
@@ -16,7 +16,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid beige;
+    border: 0.35px solid beige;
 
 }
 #calculator{
@@ -39,13 +39,15 @@ body{
 }
 input{
     background: transparent;
-    height: 62px;
+    height: 70px;
     width: 100%;
     padding: 20px;
     border: none;
     margin-bottom: 3px;
     box-shadow: 0.1px 0.09px 0.08px 0.08px white;
-
+    text-align: right;
+    color: white;
+    font-size: large;
 }
 #eqbtn{
     background-color: rgba(255, 68, 0, 0.682);
@@ -57,4 +59,7 @@ input{
 #op{
     color: green;
     font-size: 25px;
+}
+.clear{
+    color: yellow;
 }
