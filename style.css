@@ -43,8 +43,7 @@ input{
     width: 100%;
     padding: 20px;
     border: none;
-    margin-bottom: 3px;
-    box-shadow: 0.1px 0.09px 0.08px 0.08px white;
+    box-shadow: 0.09px 0.09px 0.08px 0.08px rgb(9, 1, 1);
     text-align: right;
     color: white;
     font-size: large;
